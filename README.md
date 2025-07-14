@@ -23,8 +23,8 @@ mkdir build
 cd build
 cmake ..
 make
-
-# YOLO Video Object Detection Tool
+```
+---
 
 ## 🚀 Использование / Usage
 
