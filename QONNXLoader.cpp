@@ -276,6 +276,6 @@ void QONNXLoader::detect(const cv::Mat& frame, std::vector<DetectionClass>& dete
 	for (int idx : indices) {
 		const auto& box = boxes[idx];
 		std::string className = "";
-		detection.emplace_back(DetectionClass(box,classesid[idx],scores[idx],className));
+		detection.emplace_back(DetectionClass(box,scores[idx],classesid[idx],className));
 	}
 }
